@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 SRC_URI = "git://git@github.com/cu-ecen-aeld/assignments-3-and-later-krish0706;protocol=ssh;branch=main"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "8d17b21558fd0a7cf6c97d0992b1bc8899102008"
+SRCREV = "f1456a9fd13fbb12ac0968518052a8afdbfdd62d"
 
 inherit update-rc.d 
 INITSCRIPT_PACKAGES = "${PN}"
